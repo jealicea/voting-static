@@ -10,13 +10,7 @@
 # Exit on error, undefined variable, or failure in a pipeline.
 set -euo pipefail
 
-##############################################################################
-##############################################################################
-# CHANGE REPO_URL BELOW: REPLACE YOUR_GITHUB_USERNAME WITH YOUR GITHUB
-# USERNAME. DO NOT CHANGE THE REPOSITORY NAME (voting-static).
-##############################################################################
-##############################################################################
-REPO_URL="https://github.com/YOUR_GITHUB_USERNAME/voting-static.git"
+REPO_URL="https://github.com/jealicea/voting-static.git"
 
 APP_DIR=/home/ec2-user/voting-static
 DYNAMODB_ZIP_URL="https://s3.us-west-2.amazonaws.com/dynamodb-local/v2.x/dynamodb_local_latest.zip"
